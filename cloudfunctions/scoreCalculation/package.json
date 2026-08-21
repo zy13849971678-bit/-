@@ -1,0 +1,7 @@
+{
+  "name": "scoreCalculation",
+  "version": "1.0.0",
+  "description": "Calculate lunch health score",
+  "main": "index.js",
+  "dependencies": {}
+}
