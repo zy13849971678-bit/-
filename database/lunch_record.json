@@ -1,0 +1,24 @@
+{
+  "collection": "lunch_record",
+  "description": "午餐照片评分记录数据库结构",
+  "fields": {
+    "participant_id": "受试者编号",
+    "group": "实验组别",
+    "date": "打卡日期",
+    "upload_time": "上传时间",
+    "image_url": "午餐照片地址",
+    "food_labels": "AI识别食物结果",
+    "food_scores": "食物评分明细",
+    "lunch_score": "单日午餐健康评分",
+    "confidence": "AI识别置信度",
+    "valid": "照片是否有效"
+  },
+  "example": {
+    "participant_id": "A001",
+    "group": "干预组",
+    "date": "2026-06-21",
+    "food_labels": ["牛肉", "米饭", "青菜"],
+    "lunch_score": 4,
+    "valid": true
+  }
+}
