@@ -1,0 +1,18 @@
+<view class="container">
+  <text class="title">今日午餐健康评分</text>
+
+  <view class="score">
+    {{score}} 分
+  </view>
+
+  <view>
+    <text>识别食物：</text>
+    <block wx:for="{{foods}}" wx:key="index">
+      <view>{{item}}</view>
+    </block>
+  </view>
+
+  <view class="suggestion">
+    {{suggestion}}
+  </view>
+</view>
